@@ -3,7 +3,7 @@ use clinica_medica;
 show tables;
 
 desc agendamentos;
-
+''
 select * from agendamentos;
 
 insert into agendamentos(paciente_id,medico_id,data_hora,tipo_consulta,status)VALUES
