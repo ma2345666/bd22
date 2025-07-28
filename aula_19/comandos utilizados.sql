@@ -14,6 +14,7 @@ pedido_item.id_estoque,pedido_item.quantidade
 FROM pedido JOIN pedido_item
 ON pedido.id = pedido_item.id_pedido;
 
+-- exibir dados da view
 SELECT * FROM Vendas;
 
 
